@@ -6,7 +6,6 @@ cryptography==45.0.4
 distro==1.9.0
 et_xmlfile==2.0.0
 Flask==3.1.1
-gunicorn==23.0.0
 importlib_metadata==8.7.0
 itsdangerous==2.2.0
 Jinja2==3.1.6
@@ -20,9 +19,10 @@ pillow==11.2.1
 pycparser==2.22
 pypdfium2==4.30.1
 python-dateutil==2.9.0.post0
-pytesseract  # You also need Tesseract-OCR installed on system
+pytz==2025.2
 six==1.17.0
 tabula-py==2.10.0
 tzdata==2025.2
 Werkzeug==3.1.3
 zipp==3.23.0
+gunicorn==23.0.0
